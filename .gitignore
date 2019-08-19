@@ -1,0 +1,7 @@
+.idea/
+.cache/
+__pycache__/
+
+note
+model_ckpt/
+.DS_Store
