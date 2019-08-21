@@ -12,6 +12,9 @@ def conv2d(x, out_number, name, stride=1, kernel_size=3, act=tf.nn.elu):
 
 
 def cumulative_norm(x):
+    '''
+    Cumulative Normalization
+    '''
     y = tf.reduce_sum(x, axis=2, keepdims=True)
     x = tf.cumsum(x, axis=2)
     return x / y
