@@ -7,7 +7,7 @@ TensorFlow implementation of [Weakly- and Self-Supervised Learning for Content-A
 - TensorFlow >= 1.12
 
 ## Pre-trained model for test
-- Download the pre-trained model weights from [here(code:d58h)](https://pan.baidu.com/s/1y8S11nNdDNXziLhtx4AAWQ). 
+- Download the pre-trained model weights from [here(code:e9y4)](https://pan.baidu.com/s/1zZA1ZKz-5jZue6Gm8sKVig). 
 - Move the param files to directory `model_ckpt`.
 
 - `python test.py`.
